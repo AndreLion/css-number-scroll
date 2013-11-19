@@ -10,6 +10,7 @@
     <title>CSS Number Scroll</title>
 	<style>
 		pre { max-height:300px; }
+		small { font-size:12px; }
 		.demo-wrap { text-align:center; }
 		.qr-wrap { text-align:center; }
 		.qr-wrap img { border:none;box-shadow:none; }
@@ -87,7 +88,7 @@
 .num.ab:after { top:0px; }
 </code></pre>
 
-<p>Javascript</p>
+<p>Javascript <small>( Based on jQuery )</small></p>
 <pre><code>//render();
 $('#timestamp').text('00'+$.now());
 var arrnum = $.trim($('#timestamp').text()).split('');
